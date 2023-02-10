@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Meme Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="inputdiv">
+    <h1 id="heading">Welcome to Ivy's Meme Generator</h1>
+
+    <form id="memeform">
+
+      <p>
+        <label class="formtext">
+          Choose Photo:
+        </label>
+        <input type="url" class="forminput" placeholder="photo url here" name="photourl" size="25%">
+      </p>
+
+      <p>
+        <label class="formtext">
+          Top Text:
+        </label>
+        <input type="text" class="forminput" placeholder="text here" name="toptext" size="25%">
+      </p>
+
+      <p>
+        <label class="formtext">
+          Bottom Text:
+        </label>
+        <input type="text" class="forminput" placeholder="text here" name="bottomtext" size="25%">
+      </p>
+
+      <button id='submitbutton'>Submit</button>
+
+    </form>
+
+  </div>
+
+  <h1 id="results-title">Memes you've created!</h1>
+
+  <div id="results">
+    <div id="memeList">
+
+    </div>
+  </div>
+
+
+  <script src="memegen.js"></script>
+</body>
+</html>
